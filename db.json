@@ -1,19 +1,31 @@
 {
-    "comments": [
-        {
-            "body": "Esko Comment",
-            "id": 1,
-            "postId": 1
+    "root": {
+        "posts": {
+            "items": {
+                "item": {
+                    "author": {
+                        "@value": "typicode"
+                    }, 
+                    "id": {
+                        "@value": "1"
+                    }, 
+                    "title": {
+                        "@value": "json-server"
+                    }
+                }
+            }
+        }, 
+        "profile": {
+            "name": {
+                "@value": "typicode"
+            }
+        }, 
+        "projects": {
+            "project": {
+                "name": "EskoWorld - 2020 - Project 1", 
+                "id": "12345", 
+                "type": "Carton"
+            }
         }
-    ],
-    "posts": [
-        {
-            "author": "typicode",
-            "id": 1,
-            "title": "json-server"
-        }
-    ],
-    "profile": {
-        "name": "typicode"
     }
 }
